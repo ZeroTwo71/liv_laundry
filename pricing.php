@@ -11,7 +11,7 @@
 
         <header class="bg-blue-500 text-white p-4 flex justify-between items-center">
             <div class="flex items-center space-x-4">
-                <span>Phone: +62 7144 3300</span>
+                <span>Phone: +62 7144 33000</span>
                 <span>Email: info@laundryes.com</span>
             </div>
             <div class="flex space-x-4">
