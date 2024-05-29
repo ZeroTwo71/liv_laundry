@@ -10,7 +10,7 @@
   <div class="bg-zinc-50 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-50">
     <nav class="bg-white dark:bg-zinc-800 shadow">
       <div class="container mx-auto flex justify-between items-center p-4">
-        <a href="#" class="text-2xl font-bold">Laundrye</a>
+        <a href="#" class="text-2xl font-bold">LIV Laundry</a>
         <ul class="flex space-x-4">
           <li><a href="index.php" class="hover:underline">Home</a></li>
           <li><a href="about.php" class="hover:underline">About</a></li>
