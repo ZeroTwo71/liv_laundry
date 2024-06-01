@@ -7,19 +7,19 @@
 			</div>
 			<div class="modal-body">
 				<div align="center">
-						<strong class="text-danger">
-							<div id="remove-stud-msg">
-								<h1></h1>
-							</div>
-						</strong>
-						<input type="hidden" id="confirm-type" value="null">
-						<button id="confirm-yes" type="button" class="btn btn-default btn-lg" >Yes
-							<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-						</button>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<button type="button" class="btn btn-default btn-lg" data-dismiss="modal" >No
-							<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-						</button>	
+					<strong class="text-danger">
+						<div id="remove-stud-msg">
+							<h1></h1>
+						</div>
+					</strong>
+					<input type="hidden" id="confirm-type" value="null">
+					<button id="confirm-yes" type="button" class="btn btn-default btn-lg">Yes
+						<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+					</button>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="button" class="btn btn-default btn-lg" data-dismiss="modal">No
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</button>
 				</div>
 			</div>
 			<div class="modal-footer">
