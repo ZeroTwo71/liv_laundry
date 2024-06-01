@@ -17,7 +17,7 @@
           <li><a href="#" class="hover:underline">Services</a></li>
           <li><a href="pricing.php" class="hover:underline">Pricing</a></li>
           <li><a href="#" class="hover:underline">FAQ</a></li>
-          <li><a href="#" class="hover:underline">Blog</a></li>
+          <li><a href="cekresi.php" class="hover:underline">Cek Resi</a></li>
           <li><a href="#" class="hover:underline">Contact</a></li>
         </ul>
       </div>
@@ -245,7 +245,7 @@
         </div>
       </div>
       <div class="text-center mt-8">
-        <p>© 2016 LIV Laundry - All Rights Reserved</p>
+        <p>Copyright &copy; 2024 <a href="https://github.com/ZeroTwo71">LIV Laundry</a></p>
       </div>
     </footer>
   </div>

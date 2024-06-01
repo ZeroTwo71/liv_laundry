@@ -17,7 +17,7 @@
           <li><a href="#" class="hover:underline">Services</a></li>
           <li><a href="pricing.php" class="hover:underline">Pricing</a></li>
           <li><a href="#" class="hover:underline">FAQ</a></li>
-          <li><a href="#" class="hover:underline">Blog</a></li>
+          <li><a href="cekresi.php" class="hover:underline">Cek Resi</a></li>
           <li><a href="#" class="hover:underline">Contact</a></li>
         </ul>
       </div>
@@ -136,15 +136,15 @@
       <div>
         <h3 class="text-xl font-semibold mb-2">Get in Touch</h3>
         <ul>
-          <li class="mb-2">Phone: +62 7000 4400, +62 7000 4422</li>
-          <li class="mb-2">Email: support@laundryes.com</li>
-          <li class="mb-2">Website: www.laundryes.com</li>
-          <li>Address: 80 sakurajim street, Pekanbaru 40021 Riau</li>
+          <li class="mb-2">Phone: +62 7000 5000</li>
+          <li class="mb-2">Email: support@livlaundry.com</li>
+          <li class="mb-2">Website: www.livlaundry.com</li>
+          <li>Address: Kab. Banyuwangi</li>
         </ul>
       </div>
     </div>
     <div class="text-center mt-8">
-      <p>© 2016 Laundryes by Rudhi Sasmito - All Rights Reserved</p>
+      <p>Copyright &copy; 2024 <a href="https://github.com/ZeroTwo71">LIV Laundry</a></p>
     </div>
   </footer>
 </body>
