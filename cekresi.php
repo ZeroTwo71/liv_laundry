@@ -82,6 +82,12 @@
             event.preventDefault();
             var resi = document.getElementById('resiInput').value;
 
+            // Memeriksa apakah textbox kode resi telah diisi
+            if (resi.trim() === '') {
+                alert('Silakan masukkan kode resi terlebih dahulu.');
+                return; // Menghentikan proses selanjutnya jika textbox kosong
+            }
+
             // Mengirim permintaan AJAX ke server untuk mengecek resi
             fetch('admin/data/cek_resi.php?resi=' + resi)
                 .then(response => response.json())

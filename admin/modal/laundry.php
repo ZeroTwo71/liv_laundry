@@ -46,6 +46,15 @@ $db->Disconnect();
 							</select>
 						</div>
 					</div>
+					<!-- <div class="form-group">
+						<label class="control-label col-sm-3" for="">Status:</label>
+						<div class="col-sm-9">
+							<select class="btn btn-default" id="status" name="status">
+								<option value="Diproses">Diproses</option>
+								<option value="Selesai">Selesai</option>
+							</select>
+						</div>
+					</div> -->
 					<div class="form-group">
 						<div class="col-sm-offset-3 col-sm-9">
 							<button type="submit" class="btn btn-primary">Save</button>
