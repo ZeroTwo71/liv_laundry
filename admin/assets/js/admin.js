@@ -1,7 +1,7 @@
 var valid = true;
 function eMsg(message){
 	alert('Error: L'+message+'+');
-}//end eMsg
+}
 
 //laundry type
 $('#newType').click(function(event) {
@@ -69,7 +69,7 @@ $(document).on('submit', '#form-type', function(event) {
  				}
  			});
  	}else{
- 		//where magic begins .wahaha
+
  	}
 });
 
@@ -178,6 +178,7 @@ $(document).on('submit', '#form-new-laun', function(event) {
 					priority:priority,
 					weight:weight,
 					type:type,
+					laun_status:status,
 					laun_id: laun_id
 				},
 				success: function (data) {
@@ -194,8 +195,7 @@ $(document).on('submit', '#form-new-laun', function(event) {
 				}
 			});
 	}else{
-		//where the magic begins .mhuahwahwahwah
-		//soo sleepy. programmer sucks
+
 	}
 
 });//end submit form
@@ -231,7 +231,7 @@ $('#confirm-yes').click(function(event) {
 						id:id
 					},
 					success: function (data) {
-						// im soo sleepy
+
 					},
 					error: function(){
 						eMsg(211);
@@ -251,7 +251,7 @@ $('#confirm-yes').click(function(event) {
 						id:id
 					},
 					success: function (data) {
-						// soo  sleepy
+
 					},
 					error: function(){
 						eMsg(258);
@@ -262,12 +262,12 @@ $('#confirm-yes').click(function(event) {
 		$('#modal-msg').find('#msg-body').text('Claim and paid Successfully!');	
 		$('#modal-msg').modal('show');
 	}else{	
-		//sooo fucking sleepy
+
 	}
 	all_laundry();
 });//end if confirm yes is click
 
-//edit laundry basin na sayop
+//edit laundry
 function editLaundry(laun_id){
 	$('#laun-type').val('edit');
 	//fill

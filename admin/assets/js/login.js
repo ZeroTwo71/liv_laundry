@@ -1,6 +1,5 @@
 $(document).on('submit', '#form-login', function(event) {
         event.preventDefault();
-        /* Act on the event */
         var un = $('#username').val();
         var pw = $('#password').val();
         $.ajax({
@@ -12,7 +11,6 @@ $(document).on('submit', '#form-login', function(event) {
                 pw:pw
               },
               success: function (data) {
-                // console.log(data);
                 if(data.valid == true){
                   window.location = data.url;
                 }else{
@@ -22,5 +20,5 @@ $(document).on('submit', '#form-login', function(event) {
               error: function(){
                 alert('Error: Login.js L13+');
               }
-            });//end a req
+            });
       });

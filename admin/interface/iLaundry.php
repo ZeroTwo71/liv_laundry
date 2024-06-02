@@ -9,7 +9,7 @@ interface iLaundry
 	public function new_laundry($customer, $priority, $weight, $type);
 	public function delete_laundry($laun_id);
 	public function get_laundry($laun_id);
-	public function edit_laundry($laun_id, $customer, $priority, $weight, $type);
+	public function edit_laundry($laun_id, $customer, $priority, $weight, $type, $status);
 	public function get_laundry2($laun_id);
 	public function claim_laundry($laun_id);
 }

@@ -6,17 +6,17 @@ if (isset($_POST['laun_id'])) {
 	$priority = $_POST['priority'];
 	$weight = $_POST['weight'];
 	$type = $_POST['type'];
-	// $status = $_POST['laun_status'];
+	$status = $_POST['laun_status'];
 
 	$customer = strtolower($customer);
 	$customer = ucwords($customer);
 
-	$updateRecord = $laundry->edit_laundry($laun_id, $customer, $priority, $weight, $type);
+	$updateRecord = $laundry->edit_laundry($laun_id, $customer, $priority, $weight, $type, $status);
 	$return['valid'] = false;
 	if ($updateRecord) {
 		$return['valid'] = true;
 		$return['msg'] = 'Edit Successfully!';
 	}
 	echo json_encode($return);
-} //end isset
+}
 $laundry->Disconnect();

@@ -56,7 +56,7 @@ class Laundry extends Database implements iLaundry
 	{
 		$resi = $this->generateResi();
 		$status = 'Diproses';
-		$sql = "INSERT INTO laundry (customer_name, laun_priority, laun_weight, laun_type_id, resi, status)
+		$sql = "INSERT INTO laundry (customer_name, laun_priority, laun_weight, laun_type_id, resi, laun_status)
                 VALUES(?,?,?,?,?,?)";
 		return $this->insertRow($sql, [$customer, $priority, $weight, $type, $resi, $status]);
 	}
@@ -76,12 +76,12 @@ class Laundry extends Database implements iLaundry
 		return $this->getRow($sql, [$laun_id]);
 	}
 
-	public function edit_laundry($laun_id, $customer, $priority, $weight, $type)
+	public function edit_laundry($laun_id, $customer, $priority, $weight, $type, $status)
 	{
 		$sql = "UPDATE laundry 
-            SET customer_name = ?, laun_priority = ?, laun_weight = ?, laun_type_id = ?
+            SET customer_name = ?, laun_priority = ?, laun_weight = ?, laun_type_id = ?, laun_status = ?
             WHERE laun_id = ?";
-		return $this->updateRow($sql, [$customer, $priority, $weight, $type, $laun_id]);
+		return $this->updateRow($sql, [$customer, $priority, $weight, $type, $status, $laun_id]);
 	}
 
 	public function get_laundry2($laun_id)
