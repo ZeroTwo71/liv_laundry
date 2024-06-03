@@ -94,7 +94,7 @@
                 .then(data => {
                     var resultDiv = document.getElementById('resiResult');
                     if (data.success) {
-                        resultDiv.innerHTML = `<p>Status Pesanan: ${data.status}</p>`;
+                        resultDiv.innerHTML = `<p>Status Pesanan: ${data.laun_status_desc}</p>`;
                     } else {
                         resultDiv.innerHTML = '<p>Kode resi tidak ditemukan.</p>';
                     }

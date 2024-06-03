@@ -7,11 +7,14 @@ header('Content-Type: application/json'); // Menentukan tipe konten sebagai JSON
 
 if (isset($_GET['resi'])) {
     $resi = $_GET['resi'];
-    $sql = "SELECT status FROM laundry WHERE resi = ?";
+    $sql = "SELECT ls.laun_status_desc 
+            FROM laundry l 
+            INNER JOIN laundry_status ls ON l.laun_status_id = ls.laun_status_id 
+            WHERE l.resi = ?";
     $result = $db->getRow($sql, [$resi]);
 
     if ($result) {
-        $response = ['success' => true, 'status' => $result['status']];
+        $response = ['success' => true, 'laun_status_desc' => $result['laun_status_desc']];
     } else {
         $response = ['success' => false];
     }
