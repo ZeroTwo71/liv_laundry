@@ -5,6 +5,10 @@ $sql = "SELECT *
 		FROM laundry_type
 		ORDER BY laun_type_desc ASC";
 $types = $db->getRows($sql);
+$sql = "SELECT *
+		FROM laundry_status
+		ORDER BY laun_status_desc ASC";
+$status = $db->getRows($sql);
 $db->Disconnect();
 ?>
 <div class="modal fade" id="modal-laun">
@@ -50,8 +54,9 @@ $db->Disconnect();
 						<label class="control-label col-sm-3" for="status">Status:</label>
 						<div class="col-sm-9">
 							<select class="btn btn-default" id="laun_status" name="laun_status">
-								<option value="Diproses">Diproses</option>
-								<option value="Selesai">Selesai</option>
+								<?php foreach ($status as $s) : ?>
+									<option value="<?= $s['laun_status_id']; ?>"><?= $s['laun_status_desc']; ?></option>
+								<?php endforeach; ?>
 							</select>
 						</div>
 					</div>

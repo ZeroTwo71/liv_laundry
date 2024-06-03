@@ -19,8 +19,8 @@ class Laundry extends Database implements iLaundry
 	public function get_all_laundry()
 	{
 		$sql = "SELECT *
-                FROM laundry_type
-                ORDER BY laun_type_desc ASC";
+	            FROM laundry_type
+	            ORDER BY laun_type_desc ASC";
 		return $this->getRows($sql);
 	}
 
@@ -40,23 +40,40 @@ class Laundry extends Database implements iLaundry
 		return $this->updateRow($sql, [$type, $price, $type_id]);
 	}
 
+	public function get_status($status_id)
+	{
+		$sql = "SELECT * 
+                FROM laundry_status
+                WHERE laun_status_id = ?";
+		return $this->getRow($sql, [$status_id]);
+	}
+
+	public function edit_status($status_id, $status)
+	{
+		$sql = "UPDATE laundry_status
+                SET laun_stutus_desc = ?,
+                WHERE laun_status_id = ?";
+		return $this->updateRow($sql, [$status, $status_id]);
+	}
+
 	public function all_laundry()
 	{
 		$claimed = 0;
-		$sql = "SELECT *
-                FROM laundry l
-                INNER JOIN laundry_type lt
-                ON l.laun_type_id = lt.laun_type_id
-                WHERE l.laun_claimed = ?
-                ORDER BY customer_name ASC";
+		$sql = "SELECT l.*, lt.laun_type_desc, lt.laun_type_price, ls.laun_status_desc
+            FROM laundry l
+            INNER JOIN laundry_type lt ON l.laun_type_id = lt.laun_type_id
+            INNER JOIN laundry_status ls ON l.laun_status_id = ls.laun_status_id
+            WHERE l.laun_claimed = ?
+            ORDER BY l.customer_name ASC";
 		return $this->getRows($sql, [$claimed]);
 	}
 
-	public function new_laundry($customer, $priority, $weight, $type)
+
+	public function new_laundry($customer, $priority, $weight, $type, $status)
 	{
 		$resi = $this->generateResi();
-		$status = 'Diproses';
-		$sql = "INSERT INTO laundry (customer_name, laun_priority, laun_weight, laun_type_id, resi, laun_status)
+		// $status = 'Diproses';
+		$sql = "INSERT INTO laundry (customer_name, laun_priority, laun_weight, laun_type_id, resi, laun_status_id)
                 VALUES(?,?,?,?,?,?)";
 		return $this->insertRow($sql, [$customer, $priority, $weight, $type, $resi, $status]);
 	}
@@ -79,7 +96,7 @@ class Laundry extends Database implements iLaundry
 	public function edit_laundry($laun_id, $customer, $priority, $weight, $type, $status)
 	{
 		$sql = "UPDATE laundry 
-            SET customer_name = ?, laun_priority = ?, laun_weight = ?, laun_type_id = ?, laun_status = ?
+            SET customer_name = ?, laun_priority = ?, laun_weight = ?, laun_type_id = ?, laun_status_id = ?
             WHERE laun_id = ?";
 		return $this->updateRow($sql, [$customer, $priority, $weight, $type, $status, $laun_id]);
 	}
@@ -90,6 +107,16 @@ class Laundry extends Database implements iLaundry
                 FROM laundry l 
                 INNER JOIN laundry_type lt 
                 ON l.laun_type_id = lt.laun_type_id
+                WHERE l.laun_id = ?";
+		return $this->getRow($sql, [$laun_id]);
+	}
+
+	public function get_laundry3($laun_id)
+	{
+		$sql = "SELECT *
+                FROM laundry l 
+                INNER JOIN laundry_status ls
+                ON l.laun_status_id = ls.laun_status_id
                 WHERE l.laun_id = ?";
 		return $this->getRow($sql, [$laun_id]);
 	}

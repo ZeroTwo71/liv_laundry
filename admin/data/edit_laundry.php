@@ -6,7 +6,7 @@ if (isset($_POST['laun_id'])) {
 	$priority = $_POST['priority'];
 	$weight = $_POST['weight'];
 	$type = $_POST['type'];
-	$status = $_POST['laun_status'];
+	$status = $_POST['status'];
 
 	$customer = strtolower($customer);
 	$customer = ucwords($customer);

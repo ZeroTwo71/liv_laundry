@@ -148,6 +148,7 @@ $(document).on('submit', '#form-new-laun', function(event) {
 	var priority = $('#priority').val();
 	var weight = $('#weight').val();
 	var type = $('#newlaun-type').val();
+	var status = $('#laun_status').val();
 	if(modal_type == 'insert'){
 		$.ajax({
 				url: 'data/insert_laundry.php',
@@ -157,7 +158,8 @@ $(document).on('submit', '#form-new-laun', function(event) {
 					customer:customer,
 					priority:priority,
 					weight:weight,
-					type:type
+					type:type,
+					status:status
 				},
 				success: function (data) {
 					// console.log(data);
@@ -178,7 +180,7 @@ $(document).on('submit', '#form-new-laun', function(event) {
 					priority:priority,
 					weight:weight,
 					type:type,
-					laun_status:status,
+					status:status,
 					laun_id: laun_id
 				},
 				success: function (data) {
