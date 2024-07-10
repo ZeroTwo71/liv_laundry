@@ -9,17 +9,14 @@
 
 <body>
     <div class="bg-zinc-50 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-50">
-        <nav class="bg-white dark:bg-zinc-800 shadow">
+        <nav class="bg-blue-500">
             <div class="container mx-auto flex justify-between items-center p-4">
-                <a href="#" class="text-2xl font-bold">Laundrye</a>
+                <a href="index.php" class="text-2xl font-bold">LIV Laundry</a>
                 <ul class="flex space-x-4">
-                    <li><a href="index.php" class="hover:underline">Home</a></li>
-                    <li><a href="about.php" class="hover:underline">About</a></li>
-                    <li><a href="#" class="hover:underline">Services</a></li>
-                    <li><a href="pricing.php" class="hover:underline">Pricing</a></li>
-                    <li><a href="#" class="hover:underline">FAQ</a></li>
-                    <li><a href="#" class="hover:underline">Blog</a></li>
-                    <li><a href="#" class="hover:underline">Contact</a></li>
+                    <li><a href="pricing.php" class="hover:underline">Paket Cucian</a></li>
+                    <li><a href="cekresi.php" class="hover:underline">Cek Resi</a></li>
+                    <li><a href="about.php" class="hover:underline">Tentang Kami</a></li>
+                    <li><a href="/laundry/admin/index.php" class="hover:underline">Panel Admin</a></li>
                 </ul>
             </div>
         </nav>
@@ -38,13 +35,13 @@
     <footer class="bg-zinc-800 text-white p-8">
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div>
-                <h3 class="text-xl font-semibold mb-2">Laundryes</h3>
-                <p class="mb-4">This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
+                <h3 class="text-xl font-semibold mb-2">LIV Laundry</h3>
+                <p class="mb-4">LIV Laundry berlokasi di Jalan Jaksa Agung Suprapto No. 161.</p>
                 <div class="flex space-x-2">
-                    <a href="#"><img aria-hidden="true" alt="facebook" src="https://placehold.co/20x20" /></a>
-                    <a href="#"><img aria-hidden="true" alt="twitter" src="https://placehold.co/20x20" /></a>
-                    <a href="#"><img aria-hidden="true" alt="google-plus" src="https://placehold.co/20x20" /></a>
-                    <a href="#"><img aria-hidden="true" alt="linkedin" src="https://placehold.co/20x20" /></a>
+                    <a href="#"><img aria-hidden="true" alt="facebook" src="./assets/facebook.png" width="20" height="20" /></a>
+                    <a href="#"><img aria-hidden="true" alt="twitter" src="./assets/twitter.png" width="20" height="20" /></a>
+                    <a href="#"><img aria-hidden="true" alt="google-plus" src="./assets/google-plus.png" width="20" height="20" /></a>
+                    <a href="#"><img aria-hidden="true" alt="linkedin" src="./assets/linkedin.png" width="20" height="20" /></a>
                 </div>
             </div>
             <div>
@@ -65,8 +62,8 @@
             <div>
                 <h3 class="text-xl font-semibold mb-2">Get in Touch</h3>
                 <ul>
-                    <li class="mb-2">Phone: +62 7000 5000</li>
-                    <li class="mb-2">Email: support@livlaundry.com</li>
+                    <li class="mb-2">Phone: +62 7144 3300</li>
+                    <li class="mb-2">Email: livlaundry@gmail.com</li>
                     <li class="mb-2">Website: www.livlaundry.com</li>
                     <li>Address: Kab. Banyuwangi</li>
                 </ul>

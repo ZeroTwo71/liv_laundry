@@ -72,7 +72,6 @@ class Laundry extends Database implements iLaundry
 	public function new_laundry($customer, $priority, $weight, $type, $status)
 	{
 		$resi = $this->generateResi();
-		// $status = 'Diproses';
 		$sql = "INSERT INTO laundry (customer_name, laun_priority, laun_weight, laun_type_id, resi, laun_status_id)
                 VALUES(?,?,?,?,?,?)";
 		return $this->insertRow($sql, [$customer, $priority, $weight, $type, $resi, $status]);
@@ -107,16 +106,6 @@ class Laundry extends Database implements iLaundry
                 FROM laundry l 
                 INNER JOIN laundry_type lt 
                 ON l.laun_type_id = lt.laun_type_id
-                WHERE l.laun_id = ?";
-		return $this->getRow($sql, [$laun_id]);
-	}
-
-	public function get_laundry3($laun_id)
-	{
-		$sql = "SELECT *
-                FROM laundry l 
-                INNER JOIN laundry_status ls
-                ON l.laun_status_id = ls.laun_status_id
                 WHERE l.laun_id = ?";
 		return $this->getRow($sql, [$laun_id]);
 	}

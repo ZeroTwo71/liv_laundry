@@ -2,15 +2,16 @@
 require_once('database/Database.php');
 $db = new Database();
 $sql = "SELECT *
-		FROM laundry_type
-		ORDER BY laun_type_desc ASC";
+			FROM laundry_type
+			ORDER BY laun_type_desc ASC";
 $types = $db->getRows($sql);
 $sql = "SELECT *
-		FROM laundry_status
-		ORDER BY laun_status_desc ASC";
+			FROM laundry_status
+			ORDER BY laun_status_desc ASC";
 $status = $db->getRows($sql);
 $db->Disconnect();
 ?>
+
 <div class="modal fade" id="modal-laun">
 	<div class="modal-dialog">
 		<div class="modal-content">

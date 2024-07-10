@@ -8,25 +8,23 @@
 
 <body>
   <div class="bg-zinc-50 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-50">
-    <nav class="bg-white dark:bg-zinc-800 shadow">
+    <nav class="bg-blue-500">
       <div class="container mx-auto flex justify-between items-center p-4">
-        <a href="#" class="text-2xl font-bold">LIV Laundry</a>
+        <a href="index.php" class="text-2xl font-bold">LIV Laundry</a>
         <ul class="flex space-x-4">
-          <li><a href="index.php" class="hover:underline">Home</a></li>
-          <li><a href="about.php" class="hover:underline">About</a></li>
-          <li><a href="#" class="hover:underline">Services</a></li>
-          <li><a href="pricing.php" class="hover:underline">Pricing</a></li>
-          <li><a href="#" class="hover:underline">FAQ</a></li>
+          <li><a href="pricing.php" class="hover:underline">Paket Cucian</a></li>
           <li><a href="cekresi.php" class="hover:underline">Cek Resi</a></li>
-          <li><a href="#" class="hover:underline">Contact</a></li>
+          <li><a href="about.php" class="hover:underline">Tentang Kami</a></li>
+          <li><a href="/laundry/admin/index.php" class="hover:underline">Panel Admin</a></li>
         </ul>
       </div>
     </nav>
 
     <section class="bg-blue-500 text-white text-center py-16" style="background-image: url('assets/background.jpg'); background-size: cover; background-position: center;">
       <div class="container mx-auto">
-        <h1 class="text-4xl font-bold">We Are The Best Laundry Services</h1>
-        <p class="mt-4">This template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
+        <h1 class="text-4xl font-bold">Mau Nyuci ? Tapi Gak Ada Waktu Buat Nyuci?</h1>
+        <p class="mt-4">Serahin aja ke kita buat dicuci dan kamu bisa lanjut ngerjain tugasmu atau</p>
+        <p class="mt-4">beraktivitas di luar rumah tanpa khawatir cucian menumpuk di rumah, kos atau di kontrakan.</p>
         <button class="mt-8 bg-white text-blue-500 px-4 py-2 rounded">Learn More</button>
       </div>
     </section>
@@ -34,44 +32,41 @@
     <section class="bg-blue-300 text-white py-8">
       <div class="container mx-auto flex justify-around">
         <div class="flex items-center space-x-2">
-          <span>Have a question? Call us now</span>
+          <span>Ada pertanyaan? Hubungi kami</span>
           <span class="font-bold">+62 7144 3300</span>
         </div>
         <div class="flex items-center space-x-2">
-          <span>We are open Mon-Fri</span>
+          <span>Kami buka dari Senin sampai Sabtu</span>
           <span class="font-bold">08:00 - 17:00</span>
         </div>
         <div class="flex items-center space-x-2">
-          <span>Need Support? Drop us an email</span>
-          <span class="font-bold">support@yoursite.com</span>
+          <span>Email kami</span>
+          <span class="font-bold">livlaundry@gmail.com</span>
         </div>
       </div>
     </section>
 
     <section class="py-16">
       <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-bold">Why Choose Us?</h2>
-        <p class="mt-4">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
+        <h2 class="text-3xl font-bold">Apa Sih Kelebihan Kami?</h2>
+        <p class="mt-4">Tim profesional kami akan menangani cucian kamu dengan hati-hati dan memastikan cucian dibersihkan dan dilipat sesuai kepuasan kamu.</p>
+        <p class="mt-4">Apakah kamu perlu mencuci pakaian sehari-hari atau barang-barang halus, LIV Laundry siap membantu kamu.</p>
         <div class="mt-8 flex justify-around">
           <div class="text-center">
-            <img src="https://placehold.co/100x100" alt="Expert Cleaner" class="mx-auto">
-            <h3 class="mt-4 font-bold">Expert Cleaner</h3>
-            <p class="mt-2">We give our best work for this template. You can easily edit it and customize it based on your needs.</p>
+            <img src="./assets/wallet.png" width="100" height="100" alt="Expert Cleaner" class="mx-auto">
+            <h3 class="mt-4 font-bold">Harganya Murah</h3>
           </div>
           <div class="text-center">
-            <img src="https://placehold.co/100x100" alt="Affordable Price" class="mx-auto">
-            <h3 class="mt-4 font-bold">Affordable Price</h3>
-            <p class="mt-2">Our templates price really affordable. Only $5 for our template. You will get more than you pay for.</p>
+            <img src="./assets/qris.png" width="100" height="100" alt="Affordable Price" class="mx-auto">
+            <h3 class="mt-4 font-bold">Bayarnya Pake Cash/Qris</h3>
           </div>
           <div class="text-center">
-            <img src="https://placehold.co/100x100" alt="Express Delivery" class="mx-auto">
-            <h3 class="mt-4 font-bold">Express Delivery</h3>
-            <p class="mt-2">Yes it's right. If you already purchase our template, you will get access to our template every update.</p>
+            <img src="./assets/fast_timer.png" width="100" height="100" alt="Express Delivery" class="mx-auto">
+            <h3 class="mt-4 font-bold">Pengerjaan Cepat</h3>
           </div>
           <div class="text-center">
-            <img src="https://placehold.co/100x100" alt="Guarantee" class="mx-auto">
-            <h3 class="mt-4 font-bold">Guarantee</h3>
-            <p class="mt-2">Of course this is our template. You don't need to worry about it. We guarantee you will love it.</p>
+            <img src="./assets/mesin_cuci.png" width="100" height="100" alt="Guarantee" class="mx-auto" loading="lazy">
+            <h3 class="mt-4 font-bold">Mesin Yang Handal</h3>
           </div>
         </div>
       </div>
@@ -79,23 +74,23 @@
 
     <section class="py-16 bg-zinc-100 dark:bg-zinc-800">
       <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-bold">Our Services</h2>
-        <p class="mt-4">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
+        <h2 class="text-3xl font-bold">Service Kami</h2>
+        <p class="mt-4">As Laundry Express, LIV Laundry providing almost all services available</p>
         <div class="mt-8 flex justify-around items-center">
           <div class="text-center">
-            <img src="https://placehold.co/100x100" alt="Coin Laundry" class="mx-auto">
-            <h3 class="mt-4 font-bold">Coin Laundry</h3>
-            <p class="mt-2">Yes! Our templates already for desktop, tablet and mobile layout versions.</p>
+            <img src="./assets/service1.jpg" width="100" height="100" alt="Coin Laundry" class="mx-auto">
+            <h3 class="mt-4 font-bold">Cuci Kiloan</h3>
+            <p class="mt-2">Cuci, Pengeringan, dan Lipat di antar dengan kemasan</p>
           </div>
           <div class="text-center">
-            <img src="https://placehold.co/100x100" alt="Residential Laundry" class="mx-auto">
-            <h3 class="mt-4 font-bold">Residential Laundry</h3>
-            <p class="mt-2">We give you good documentation to make easy to understand.</p>
+            <img src="./assets/service2.jpg" width="100" height="100" alt="Residential Laundry" class="mx-auto">
+            <h3 class="mt-4 font-bold">Laundry Kilat</h3>
+            <p class="mt-2">Tersedia mulai 2 Jam, 4 Jam, 6 jam, 12 Jam dan satu hari</p>
           </div>
           <div class="text-center">
-            <img src="https://placehold.co/100x100" alt="Business Laundry" class="mx-auto">
-            <h3 class="mt-4 font-bold">Business Laundry</h3>
-            <p class="mt-2">Create and publish dynamic websites for desktop and mobile devices.</p>
+            <img src="./assets/service3.jpg" width="100" height="100" alt="Business Laundry" class="mx-auto">
+            <h3 class="mt-4 font-bold">Dry Clean + Iron</h3>
+            <p class="mt-2">Dry clean items, ironed and returned to you on a hanger</p>
           </div>
         </div>
       </div>
@@ -112,11 +107,11 @@
           <p class="mt-2">Cup of Coffee</p>
         </div>
         <div class="text-center">
-          <h3 class="text-4xl font-bold">4554</h3>
+          <h3 class="text-4xl font-bold">545</h3>
           <p class="mt-2">People Like Us</p>
         </div>
         <div class="text-center">
-          <h3 class="text-4xl font-bold">350</h3>
+          <h3 class="text-4xl font-bold">4</h3>
           <p class="mt-2">Employees</p>
         </div>
       </div>
@@ -128,19 +123,19 @@
         <p class="mt-4">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
         <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <p>"I can't believe the level of help and customer service he provided. I don't think I could have reached my deadline without him!"</p>
+            <p>"Saya terbantu dan hasil memuaskan"</p>
             <div class="mt-4 flex items-center">
-              <img src="https://placehold.co/50x50" alt="John Doe" class="rounded-full">
+              <img src="./assets/person.png" width="50" height="50" alt="John Doe" class="rounded-full">
               <div class="ml-4">
                 <h4 class="font-bold">John Doe</h4>
-                <p>Manager Google</p>
+                <p>Bussines Man</p>
               </div>
             </div>
           </div>
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <p>"Hello Roomtheme. I just bought a muse template from you. Very happy with it!"</p>
+            <p>"Pelayanannya bagus"</p>
             <div class="mt-4 flex items-center">
-              <img src="https://placehold.co/50x50" alt="Sonny Doe" class="rounded-full">
+              <img src="./assets/person.png" width="50" height="50" alt="Sonny Doe" class="rounded-full">
               <div class="ml-4">
                 <h4 class="font-bold">Sonny Doe</h4>
                 <p>Junior DC</p>
@@ -148,9 +143,9 @@
             </div>
           </div>
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <p>"Hello, I have purchased and used this template, everything is working great."</p>
+            <p>"Layanan yang top"</p>
             <div class="mt-4 flex items-center">
-              <img src="https://placehold.co/50x50" alt="Jenny Doe" class="rounded-full">
+              <img src="./assets/person.png" width="50" height="50" alt="Jenny Doe" class="rounded-full">
               <div class="ml-4">
                 <h4 class="font-bold">Jenny Doe</h4>
                 <p>CEO Layer</p>
@@ -158,12 +153,12 @@
             </div>
           </div>
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <p>"I thought the designs are flexible to implement. Actually his service are quite good, truly recommended!"</p>
+            <p>"Sangat terbantu, harga sesuai untuk mahasiswa"</p>
             <div class="mt-4 flex items-center">
-              <img src="https://placehold.co/50x50" alt="Rambo Doe" class="rounded-full">
+              <img src="./assets/person.png" width="50" height="50" alt="Rambo Doe" class="rounded-full">
               <div class="ml-4">
-                <h4 class="font-bold">Rambo Doe</h4>
-                <p>Dota Player</p>
+                <h4 class="font-bold">Anna</h4>
+                <p>Student College</p>
               </div>
             </div>
           </div>
@@ -177,30 +172,30 @@
         <p class="mt-4">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
         <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <img src="https://placehold.co/300x200" alt="News Image">
-            <h3 class="mt-4 font-bold">How to Laundry Your Suit Office - Tips and Trick</h3>
-            <p class="mt-2">Our templates already for desktop, tablet and mobile layout versions. You can use only desktop or mobile devices which you need.</p>
+            <img src="./assets/news1.jpg" width="300" height="200" loading="eager" alt="News Image">
+            <h3 class="mt-4 font-bold">Cuci Karpet: Tips tetap terlihat Segar dan Bersih</h3>
+            <p class="mt-2">Washing Carpets Tips. Carpets add warmth and comfort to any room, but they can also trap dust, dirt and odors.</p>
             <div class="mt-4 flex justify-between items-center">
-              <span>By John Doe</span>
-              <span>May 29, 2015</span>
+              <span>By Admin</span>
+              <span>May 15, 2024</span>
             </div>
           </div>
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <img src="https://placehold.co/300x200" alt="News Image">
-            <h3 class="mt-4 font-bold">Welcome to Our Office in Indonesia, Austin Visit Us</h3>
-            <p class="mt-2">We give you good documentation to make easy to understand about this templates and the features if you need. You can give video tutorial too.</p>
+            <img src="./assets/news3.jpg" width="300" height="200" loading="eager" alt="News Image">
+            <h3 class="mt-4 font-bold">Clean and Fresh: The Washable Bed-Cover</h3>
+            <p class="mt-2">No Stains, why need to wash bed cover? Looks clean but smiley,Realize Bed-Cover not only for sleep.</p>
             <div class="mt-4 flex justify-between items-center">
-              <span>By John Doe</span>
-              <span>May 29, 2015</span>
+              <span>By Admin</span>
+              <span>May 27, 2024</span>
             </div>
           </div>
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <img src="https://placehold.co/300x200" alt="News Image">
-            <h3 class="mt-4 font-bold">4 Ways to Simply Laundry! (Clean My Space)</h3>
-            <p class="mt-2">Create and publish dynamic websites for desktop and mobile devices that meet the latest web standards without writing any code.</p>
+            <img src="./assets/news2.jpg" width="300" height="200" loading="eager" alt="News Image">
+            <h3 class="mt-4 font-bold">Grease Be Gone: How to Effectively Clean Up</h3>
+            <p class="mt-2">Remove greasy stains without damaging your jeans. Everyone has experienced oil stains on their jeans.</p>
             <div class="mt-4 flex justify-between items-center">
-              <span>By John Doe</span>
-              <span>May 29, 2015</span>
+              <span>By Admin</span>
+              <span>Jun 04, 2024</span>
             </div>
           </div>
         </div>
@@ -210,20 +205,20 @@
     <footer class="bg-zinc-800 text-white p-8">
       <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <div>
-          <h3 class="text-xl font-semibold mb-2">Laundryes</h3>
-          <p class="mb-4">This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
+          <h3 class="text-xl font-semibold mb-2">LIV Laundry</h3>
+          <p class="mb-4">LIV Laundry berlokasi di Jalan Jaksa Agung Suprapto No. 161.</p>
           <div class="flex space-x-2">
-            <a href="#"><img aria-hidden="true" alt="facebook" src="https://placehold.co/20x20" /></a>
-            <a href="#"><img aria-hidden="true" alt="twitter" src="https://placehold.co/20x20" /></a>
-            <a href="#"><img aria-hidden="true" alt="google-plus" src="https://placehold.co/20x20" /></a>
-            <a href="#"><img aria-hidden="true" alt="linkedin" src="https://placehold.co/20x20" /></a>
+            <a href="#"><img aria-hidden="true" alt="facebook" src="./assets/facebook.png" width="20" height="20" /></a>
+            <a href="#"><img aria-hidden="true" alt="twitter" src="./assets/twitter.png" width="20" height="20" /></a>
+            <a href="#"><img aria-hidden="true" alt="google-plus" src="./assets/google-plus.png" width="20" height="20" /></a>
+            <a href="#"><img aria-hidden="true" alt="linkedin" src="./assets/linkedin.png" width="20" height="20" /></a>
           </div>
         </div>
         <div>
           <h3 class="text-xl font-semibold mb-2">Recent Post</h3>
           <ul>
-            <li class="mb-2"><a href="#" class="hover:underline">How to laundry your suit office - tips and trick</a><br><span>May 29, 2015</span></li>
-            <li><a href="#" class="hover:underline">How to laundry your suit office - tips and trick</a><br><span>May 29, 2015</span></li>
+            <li class="mb-2"><a href="#" class="hover:underline">Cuci Karpet: Tips tetap terlihat Segar dan Bersih</a><br><span>May 15, 2024</span></li>
+            <li><a href="#" class="hover:underline">Grease Be Gone: How to Effectively Clean Up Oily Messes</a><br><span>May 27, 2014</span></li>
           </ul>
         </div>
         <div>
@@ -237,8 +232,8 @@
         <div>
           <h3 class="text-xl font-semibold mb-2">Get in Touch</h3>
           <ul>
-            <li class="mb-2">Phone: +62 7000 5000</li>
-            <li class="mb-2">Email: support@livlaundry.com</li>
+            <li class="mb-2">Phone: +62 7144 3300</li>
+            <li class="mb-2">Email: livlaundry@gmail.com</li>
             <li class="mb-2">Website: www.livlaundry.com</li>
             <li>Address: Kab. Banyuwangi</li>
           </ul>

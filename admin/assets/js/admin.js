@@ -142,8 +142,8 @@ $('#newLaun').click(function(event) {
 $(document).on('submit', '#form-new-laun', function(event) {
 	event.preventDefault();
 	/* Act on the event */
-	var modal_type = $('#laun-type').val();//insert/update
-	var laun_id = $('#laun-id').val();//pk
+	var modal_type = $('#laun-type').val();
+	var laun_id = $('#laun-id').val();
 	var customer = $('#customer').val();
 	var priority = $('#priority').val();
 	var weight = $('#weight').val();
