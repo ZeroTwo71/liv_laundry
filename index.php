@@ -120,14 +120,14 @@
     <section class="py-16">
       <div class="container mx-auto text-center">
         <h2 class="text-3xl font-bold">Testimonials</h2>
-        <p class="mt-4">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
+        <p class="mt-4">Beberapa testimoni dari pelaggan LIV Laundry kami.</p>
         <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
             <p>"Saya terbantu dan hasil memuaskan"</p>
             <div class="mt-4 flex items-center">
-              <img src="./assets/person.png" width="50" height="50" alt="John Doe" class="rounded-full">
+              <img src="./assets/person.png" width="50" height="50" alt="Arif P" class="rounded-full">
               <div class="ml-4">
-                <h4 class="font-bold">John Doe</h4>
+                <h4 class="font-bold">Arif P</h4>
                 <p>Bussines Man</p>
               </div>
             </div>
@@ -135,9 +135,9 @@
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
             <p>"Pelayanannya bagus"</p>
             <div class="mt-4 flex items-center">
-              <img src="./assets/person.png" width="50" height="50" alt="Sonny Doe" class="rounded-full">
+              <img src="./assets/person.png" width="50" height="50" alt="Geral" class="rounded-full">
               <div class="ml-4">
-                <h4 class="font-bold">Sonny Doe</h4>
+                <h4 class="font-bold">Geral</h4>
                 <p>Junior DC</p>
               </div>
             </div>
@@ -145,9 +145,9 @@
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
             <p>"Layanan yang top"</p>
             <div class="mt-4 flex items-center">
-              <img src="./assets/person.png" width="50" height="50" alt="Jenny Doe" class="rounded-full">
+              <img src="./assets/person.png" width="50" height="50" alt="Jenny N" class="rounded-full">
               <div class="ml-4">
-                <h4 class="font-bold">Jenny Doe</h4>
+                <h4 class="font-bold">Jenny N</h4>
                 <p>CEO Layer</p>
               </div>
             </div>
@@ -155,9 +155,9 @@
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
             <p>"Sangat terbantu, harga sesuai untuk mahasiswa"</p>
             <div class="mt-4 flex items-center">
-              <img src="./assets/person.png" width="50" height="50" alt="Rambo Doe" class="rounded-full">
+              <img src="./assets/person.png" width="50" height="50" alt="Anna G" class="rounded-full">
               <div class="ml-4">
-                <h4 class="font-bold">Anna</h4>
+                <h4 class="font-bold">Anna G</h4>
                 <p>Student College</p>
               </div>
             </div>

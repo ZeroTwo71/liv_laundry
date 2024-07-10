@@ -22,7 +22,6 @@
         </nav>
     </div>
 
-
     <section class="py-16 text-center bg-zinc-100">
         <h2 class="text-3xl font-bold">CEK RESI PESANAN ANDA</h2>
         <form id="resiForm" class="mt-8">

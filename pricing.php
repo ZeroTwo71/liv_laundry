@@ -35,7 +35,6 @@
                             <li>Perfume</li>
                             <li>1 Day Finish</li>
                         </ul>
-                        <button class="bg-blue-500 text-white py-2 px-4 rounded">Order Now</button>
                     </div>
                     <div class="bg-white dark:bg-zinc-800 shadow-lg rounded-lg p-4">
                         <h3 class="text-xl font-semibold mb-2">Laundry Kilat</h3>
@@ -45,7 +44,6 @@
                             <li>Perfume</li>
                             <li>2 Hour Finish</li>
                         </ul>
-                        <button class="bg-blue-500 text-white py-2 px-4 rounded">Order Now</button>
                     </div>
                     <div class="bg-white dark:bg-zinc-800 shadow-lg rounded-lg p-4">
                         <h3 class="text-xl font-semibold mb-2">Dry Clean</h3>
@@ -55,7 +53,6 @@
                             <li>Perfume</li>
                             <li>4 Hour Finish</li>
                         </ul>
-                        <button class="bg-blue-500 text-white py-2 px-4 rounded">Order Now</button>
                     </div>
                     <div class="bg-white dark:bg-zinc-800 shadow-lg rounded-lg p-4">
                         <h3 class="text-xl font-semibold mb-2">Iron Only</h3>
@@ -65,7 +62,6 @@
                             <li>Perfume</li>
                             <li>1 Day Finish</li>
                         </ul>
-                        <button class="bg-blue-500 text-white py-2 px-4 rounded">Order Now</button>
                     </div>
                 </div>
             </section>

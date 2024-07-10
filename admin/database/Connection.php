@@ -1,12 +1,10 @@
 <?php
 class Connection
 {
-
 	protected $isConn;
 	protected $datab;
 	protected $transaction;
 
-	//un phpmyadmin    pass phpmyadmin     ip 				dbname
 	public function __construct($username = "root", $password = "", $host = "localhost", $dbname = "laundry", $options = [])
 	{
 
@@ -21,21 +19,12 @@ class Connection
 		} catch (PDOException $e) {
 			throw new Exception($e->getMessage());
 		}
-	} //endDefaultConstructor
-
+	}
 
 	//disconnect from db
 	public function Disconnect()
 	{
-		$this->datab = NULL; //close connection in PDO
+		$this->datab = NULL;
 		$this->isConn = FALSE;
-	} //endDisconnectFunction
-
-
-
-
-
-} //endClassDatabase
-
-//$con = new Connection(); //for debugging only
-//echo '	debug connection';
+	}
+}

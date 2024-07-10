@@ -1,8 +1,8 @@
-<?php 
-require_once('database/Database.php');//start session at default constructor
-$session = new Database();//session is at default constructor
+<?php
+require_once('database/Database.php');
+$session = new Database();
 
-if(!isset($_SESSION['user_logged'])){
+if (!isset($_SESSION['user_logged'])) {
 	$session->Disconnect();
 	header('location: index.php');
 }
