@@ -14,6 +14,6 @@ if (isset($_POST['type']) && isset($_POST['price'])) {
 		$return['msg'] = 'Save Successfully!';
 	}
 	echo json_encode($return);
-} //end isset
+}
 
 $laundry->Disconnect();

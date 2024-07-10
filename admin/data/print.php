@@ -102,4 +102,4 @@ if (isset($_GET['date'])) {
     </script>
 
 <?php
-}//end isset
+}

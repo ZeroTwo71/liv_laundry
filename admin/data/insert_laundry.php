@@ -17,5 +17,5 @@ if (isset($_POST['customer'])) {
 		$return['msg'] = 'New Laundry Added Successfully!';
 	}
 	echo json_encode($return);
-} //end isset
+}
 $laundry->Disconnect();
