@@ -16,7 +16,6 @@
                     <li><a href="pricing.php" class="hover:underline">Paket Cucian</a></li>
                     <li><a href="cekresi.php" class="hover:underline">Cek Resi</a></li>
                     <li><a href="about.php" class="hover:underline">Tentang Kami</a></li>
-                    <li><a href="/laundry/admin/index.php" class="hover:underline">Panel Admin</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,6 +28,27 @@
             <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Cek Resi</button>
         </form>
         <div id="resiResult" class="mt-4"></div>
+    </section>
+
+    <section class="bg-blue-500 text-white py-16 text-center">
+        <div class="flex flex-col lg:flex-row justify-around">
+            <div class="p-4">
+                <div class="text-4xl font-bold">30K+</div>
+                <p class="mt-2">Happy Customer</p>
+            </div>
+            <div class="p-4">
+                <div class="text-4xl font-bold">10+</div>
+                <p class="mt-2">Awesome Years</p>
+            </div>
+            <div class="p-4">
+                <div class="text-4xl font-bold">1K+</div>
+                <p class="mt-2">People Like Us</p>
+            </div>
+            <div class="p-4">
+                <div class="text-4xl font-bold">5</div>
+                <p class="mt-2">Employees</p>
+            </div>
+        </div>
     </section>
 
     <footer class="bg-zinc-800 text-white p-8">

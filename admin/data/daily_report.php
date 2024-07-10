@@ -4,9 +4,6 @@ if (isset($_POST['date'])) {
 	$date = $_POST['date'];
 
 	$reports = $sales->daily_sales($date);
-	// echo '<pre>';
-	// 	print_r($reports);
-	// echo '</pre>';
 ?>
 	<br />
 	<div class="table-responsive">
@@ -39,7 +36,7 @@ if (isset($_POST['date'])) {
 						<td><?= $r['sale_type_desc']; ?></td>
 						<td><?= $r['sale_laundry_received']; ?></td>
 						<td><?= $r['sale_date_paid']; ?></td>
-						<td><?= '₱ ' . number_format($r['sale_amount'], 2); ?></td>
+						<td><?= 'Rp.' . number_format($r['sale_amount'], 2); ?></td>
 					</tr>
 				<?php endforeach; ?>
 			</tbody>
@@ -48,7 +45,7 @@ if (isset($_POST['date'])) {
 				<td></td>
 				<td></td>
 				<td align="right"><strong>TOTAL:</strong></td>
-				<td align="center"><strong><?= '₱ ' . number_format($total, 2); ?></strong></td>
+				<td align="center"><strong><?= 'Rp.' . number_format($total, 2); ?></strong></td>
 			</tr>
 		</table>
 	</div>

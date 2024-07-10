@@ -16,7 +16,6 @@
                     <li><a href="pricing.php" class="hover:underline">Paket Cucian</a></li>
                     <li><a href="cekresi.php" class="hover:underline">Cek Resi</a></li>
                     <li><a href="about.php" class="hover:underline">Tentang Kami</a></li>
-                    <li><a href="/laundry/admin/index.php" class="hover:underline">Panel Admin</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,7 +28,8 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <div class="bg-white dark:bg-zinc-800 shadow-lg rounded-lg p-4">
                         <h3 class="text-xl font-semibold mb-2">Cuci Kiloan</h3>
-                        <p class="text-2xl font-bold mb-4">Rp.5000/kg</p>
+                        <p class="text-2xl font-bold mb-4">Rp.6000</p>
+                        <p class="text-1xl mb-4">/min 3 kg</p>
                         <ul class="mb-4">
                             <li>Ironing</li>
                             <li>Perfume</li>
@@ -38,25 +38,28 @@
                     </div>
                     <div class="bg-white dark:bg-zinc-800 shadow-lg rounded-lg p-4">
                         <h3 class="text-xl font-semibold mb-2">Laundry Kilat</h3>
-                        <p class="text-2xl font-bold mb-4">Rp.7500/kg</p>
+                        <p class="text-2xl font-bold mb-4">Rp.8999</p>
+                        <p class="text-1xl mb-4">/min 3 kg</p>
                         <ul class="mb-4">
                             <li>Ironing</li>
                             <li>Perfume</li>
-                            <li>2 Hour Finish</li>
+                            <li>8 Hour Finish</li>
                         </ul>
                     </div>
                     <div class="bg-white dark:bg-zinc-800 shadow-lg rounded-lg p-4">
                         <h3 class="text-xl font-semibold mb-2">Dry Clean</h3>
-                        <p class="text-2xl font-bold mb-4">Rp.6000/kg</p>
+                        <p class="text-2xl font-bold mb-4">Rp.7000</p>
+                        <p class="text-1xl mb-4">/min 3 kg</p>
                         <ul class="mb-4">
                             <li>Ironing</li>
                             <li>Perfume</li>
-                            <li>4 Hour Finish</li>
+                            <li>12 Hour Finish</li>
                         </ul>
                     </div>
                     <div class="bg-white dark:bg-zinc-800 shadow-lg rounded-lg p-4">
-                        <h3 class="text-xl font-semibold mb-2">Iron Only</h3>
-                        <p class="text-2xl font-bold mb-4">Rp.4000/kg</p>
+                        <h3 class="text-xl font-semibold mb-2">Cuci Satuan</h3>
+                        <p class="text-2xl font-bold mb-4">Rp.8000</p>
+                        <p class="text-1xl mb-4">/min 3 kg</p>
                         <ul class="mb-4">
                             <li>Ironing</li>
                             <li>Perfume</li>
@@ -67,6 +70,27 @@
             </section>
 
         </main>
+
+        <section class="bg-blue-500 text-white py-16 text-center">
+            <div class="flex flex-col lg:flex-row justify-around">
+                <div class="p-4">
+                    <div class="text-4xl font-bold">30K+</div>
+                    <p class="mt-2">Happy Customer</p>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl font-bold">10+</div>
+                    <p class="mt-2">Awesome Years</p>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl font-bold">1K+</div>
+                    <p class="mt-2">People Like Us</p>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl font-bold">5</div>
+                    <p class="mt-2">Employees</p>
+                </div>
+            </div>
+        </section>
 
         <footer class="bg-zinc-800 text-white p-8">
             <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

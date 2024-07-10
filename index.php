@@ -15,7 +15,6 @@
           <li><a href="pricing.php" class="hover:underline">Paket Cucian</a></li>
           <li><a href="cekresi.php" class="hover:underline">Cek Resi</a></li>
           <li><a href="about.php" class="hover:underline">Tentang Kami</a></li>
-          <li><a href="/laundry/admin/index.php" class="hover:underline">Panel Admin</a></li>
         </ul>
       </div>
     </nav>
@@ -25,11 +24,11 @@
         <h1 class="text-4xl font-bold">Mau Nyuci ? Tapi Gak Ada Waktu Buat Nyuci?</h1>
         <p class="mt-4">Serahin aja ke kita buat dicuci dan kamu bisa lanjut ngerjain tugasmu atau</p>
         <p class="mt-4">beraktivitas di luar rumah tanpa khawatir cucian menumpuk di rumah, kos atau di kontrakan.</p>
-        <button class="mt-8 bg-white text-blue-500 px-4 py-2 rounded">Learn More</button>
+        <a href="pricing.php" class="mt-8 bg-white text-blue-500 px-4 py-2 rounded inline-block text-center">Learn More</a>
       </div>
     </section>
 
-    <section class="bg-blue-300 text-white py-8">
+    <section class="bg-blue-400 text-white py-8">
       <div class="container mx-auto flex justify-around">
         <div class="flex items-center space-x-2">
           <span>Ada pertanyaan? Hubungi kami</span>
@@ -96,22 +95,22 @@
       </div>
     </section>
 
-    <section class="py-16 bg-blue-500 text-white">
-      <div class="container mx-auto flex justify-around">
-        <div class="text-center">
-          <h3 class="text-4xl font-bold">450</h3>
-          <p class="mt-2">Business Clients</p>
+    <section class="bg-blue-500 text-white py-16 text-center">
+      <div class="flex flex-col lg:flex-row justify-around">
+        <div class="p-4">
+          <div class="text-4xl font-bold">30K+</div>
+          <p class="mt-2">Happy Customer</p>
         </div>
-        <div class="text-center">
-          <h3 class="text-4xl font-bold">250</h3>
-          <p class="mt-2">Cup of Coffee</p>
+        <div class="p-4">
+          <div class="text-4xl font-bold">10+</div>
+          <p class="mt-2">Awesome Years</p>
         </div>
-        <div class="text-center">
-          <h3 class="text-4xl font-bold">545</h3>
+        <div class="p-4">
+          <div class="text-4xl font-bold">1K+</div>
           <p class="mt-2">People Like Us</p>
         </div>
-        <div class="text-center">
-          <h3 class="text-4xl font-bold">4</h3>
+        <div class="p-4">
+          <div class="text-4xl font-bold">5</div>
           <p class="mt-2">Employees</p>
         </div>
       </div>
@@ -123,17 +122,17 @@
         <p class="mt-4">Beberapa testimoni dari pelaggan LIV Laundry kami.</p>
         <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <p>"Saya terbantu dan hasil memuaskan"</p>
+            <p>"Hasil Laundry sangat memuaskan"</p>
             <div class="mt-4 flex items-center">
               <img src="./assets/person.png" width="50" height="50" alt="Arif P" class="rounded-full">
               <div class="ml-4">
-                <h4 class="font-bold">Arif P</h4>
+                <h4 class="font-bold">Rendra</h4>
                 <p>Bussines Man</p>
               </div>
             </div>
           </div>
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <p>"Pelayanannya bagus"</p>
+            <p>"Pelayanan laundry di sini sangat cepat dan hasilnya selalu memuaskan."</p>
             <div class="mt-4 flex items-center">
               <img src="./assets/person.png" width="50" height="50" alt="Geral" class="rounded-full">
               <div class="ml-4">
@@ -143,7 +142,7 @@
             </div>
           </div>
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
-            <p>"Layanan yang top"</p>
+            <p>"Sangat senang dengan kebersihan dan keharuman pakaian setelah dicuci di sini."</p>
             <div class="mt-4 flex items-center">
               <img src="./assets/person.png" width="50" height="50" alt="Jenny N" class="rounded-full">
               <div class="ml-4">
@@ -169,7 +168,7 @@
     <section class="py-16 bg-zinc-100 dark:bg-zinc-800">
       <div class="container mx-auto text-center">
         <h2 class="text-3xl font-bold">Latest News</h2>
-        <p class="mt-4">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
+        <p class="mt-4">Dapatkan informasi terbaru mengenai layanan laundry kami, termasuk promosi, penawaran spesial, dan pembaruan penting lainnya.</p>
         <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
             <img src="./assets/news1.jpg" width="300" height="200" loading="eager" alt="News Image">
@@ -192,7 +191,7 @@
           <div class="bg-white dark:bg-zinc-800 p-4 rounded shadow">
             <img src="./assets/news2.jpg" width="300" height="200" loading="eager" alt="News Image">
             <h3 class="mt-4 font-bold">Grease Be Gone: How to Effectively Clean Up</h3>
-            <p class="mt-2">Remove greasy stains without damaging your jeans. Everyone has experienced oil stains on their jeans.</p>
+            <p class="mt-2">How to remove greasy stains without damaging your jeans. Everyone has experienced oil stains on their jeans.</p>
             <div class="mt-4 flex justify-between items-center">
               <span>By Admin</span>
               <span>Jun 04, 2024</span>
