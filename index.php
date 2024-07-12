@@ -217,7 +217,7 @@
           <h3 class="text-xl font-semibold mb-2">Recent Post</h3>
           <ul>
             <li class="mb-2"><a href="#" class="hover:underline">Cuci Karpet: Tips tetap terlihat Segar dan Bersih</a><br><span>May 15, 2024</span></li>
-            <li><a href="#" class="hover:underline">Grease Be Gone: How to Effectively Clean Up Oily Messes</a><br><span>May 27, 2014</span></li>
+            <li><a href="#" class="hover:underline">Grease Be Gone: How to Effectively Clean Up Oily Messes</a><br><span>May 27, 2024</span></li>
           </ul>
         </div>
         <div>

@@ -107,8 +107,8 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-2">Recent Post</h3>
                     <ul>
-                        <li class="mb-2"><a href="#" class="hover:underline">How to laundry your suit office - tips and trick</a><br><span>May 29, 2015</span></li>
-                        <li><a href="#" class="hover:underline">How to laundry your suit office - tips and trick</a><br><span>May 29, 2015</span></li>
+                        <li class="mb-2"><a href="#" class="hover:underline">Cuci Karpet: Tips tetap terlihat Segar dan Bersih</a><br><span>May 15, 2024</span></li>
+                        <li><a href="#" class="hover:underline">Clean and Fresh: The Washable Bed-Cover</a><br><span>May 27, 2024</span></li>
                     </ul>
                 </div>
                 <div>
